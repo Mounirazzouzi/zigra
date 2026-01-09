@@ -13,14 +13,14 @@
     />
   </head>
   <body class="bg-[#f6ebe3]">
-    <header class="pb-4">
+    <header class="pb-4" id='product'>
       <nav
         class="flex shadow-lg justify-between items-center w-[99.98%] px-5 bg-[#02272f] py-3 text-[#e9edf4] capitalize"
       >
         <ul class="hidden gap-[28px] items-center lg:flex md:hidden" id="mobileMenu">
-          <li><a href="">product</a></li>
-          <li><a href="">my account</a></li>
-          <li><a href="">offer</a></li>
+          <li><a href="#product">product</a></li>
+          <li><a href="#account">my account</a></li>
+          <li><a href="#offer">offer</a></li>
         </ul>
         <div class="">
           <img class="w-[35px]" src="images/logo.png" alt="" />
@@ -31,9 +31,9 @@
           <li>
             <a href=""><i class="fa-solid fa-user"></i></a>
           </li>
-          <li>
+          <li><a href='#fotr'>
             <button id="menuBtn" class="lg:hidden">
-            <i class="fa-solid fa-house"></i></button>
+            <i class="fa-solid fa-house"></i></button></a>
           </li>
         </ul>
       </nav>
@@ -109,7 +109,7 @@
         </div>
       </div>
     </section>
-    <section class="flex items-center bg-[#f5f3f1] flex-col w-full py-5">
+    <section class="flex items-center bg-[#f5f3f1] flex-col w-full py-5" id='account'>
         <div class="flex flex-col lg:flex-row gap-15 justify-around items-center">
             <div class="">
                 <h1 class="text-[2.2em] text-[#02272f]">BEST SELLERS.</h1>
@@ -157,7 +157,7 @@
             </div>
         </div>
     </section>
-    <section class="flex flex-col lg:flex-row justify-around py-8 w-full">
+    <section class="flex flex-col lg:flex-row justify-around py-8 w-full" id='offer'>
         <div class="w-[70%] lg:w-[30%]">
             <img class="rounded-lg shadow-lg" src="images/ba.png" alt="">
         </div>
@@ -193,7 +193,7 @@
         <p>&rarr;</p>
       </div>
     </section>
-    <footer class="bg-[#02272f] flex-col flex justify-center items-center gap-5 py-8 text-[#e9edf4]">
+    <footer id='fotr' class="bg-[#02272f] flex-col flex justify-center items-center gap-5 py-8 text-[#e9edf4]">
       <nav class="flex flex-col lg:flex-row gap-4 justify-between items-center lg:w-[60%] border-y-2 border-[#7a7b76] p-2 capitalize">
         <div class="">
           <img class="w-[35px]" src="images/logo.png" alt="" />
